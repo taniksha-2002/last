@@ -1,6 +1,6 @@
-FROM openjdk:17
+FROM ubuntu:latest
 LABEL authors="MGSUser"
 VOLUME /tmp
-COPY .mvn/wrapper/*.jar maven-wrapper.jar
+COPY target/test-classes/*.jar hello-1.0.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/maven-wrapper.jar"]
+ENTRYPOINT ["java","-jar","/hello-1.0.jar"]
