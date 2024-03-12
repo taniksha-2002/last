@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM openjdk:17
 LABEL authors="MGSUser"
 VOLUME /tmp
 COPY .mvn/wrapper/*.jar maven-wrapper.jar
