@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\WebSecurityConfig.java
 C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\CustomUserDetailsService.java
 C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\AppController.java
@@ -5,3 +6,12 @@ C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\User.java
 C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\HelloApplication.java
 C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\UserRepository.java
 C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\CustomUserDetails.java
+=======
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\WebSecurityConfig.java
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\CustomUserDetailsService.java
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\AppController.java
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\User.java
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\HelloApplication.java
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\UserRepository.java
+C:\Users\MGSUser\Downloads\hello\hello\src\main\java\com\example\hello\CustomUserDetails.java
+>>>>>>> ee6c43bdc6a8bd20d840cd526f1451d3748a7350
