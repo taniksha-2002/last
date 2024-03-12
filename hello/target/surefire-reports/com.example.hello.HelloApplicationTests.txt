@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.hello.HelloApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.321 s <<< FAILURE! - in com.example.hello.HelloApplicationTests
+com.example.hello.HelloApplicationTests  Time elapsed: 0.319 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\MGSUser\Downloads\hello\hello\target\test-classes\com\example\hello\HelloApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\MGSUser\Downloads\hello\hello\target\test-classes\com\example\hello\HelloApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\MGSUser\Downloads\hello\hello\target\test-classes\com\example\hello\HelloApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+
