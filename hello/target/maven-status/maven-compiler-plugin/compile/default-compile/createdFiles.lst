@@ -1,0 +1,7 @@
+com\example\hello\HelloApplication.class
+com\example\hello\UserRepository.class
+com\example\hello\AppController.class
+com\example\hello\WebSecurityConfig.class
+com\example\hello\User.class
+com\example\hello\CustomUserDetailsService.class
+com\example\hello\CustomUserDetails.class
