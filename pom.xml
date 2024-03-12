@@ -15,7 +15,7 @@
 	<description>Demo registration (sign up) and Login (Sign in)</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
