@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 com\example\hello\HelloApplicationTests.class
 com\example\hello\PasswordGenerator.class
 com\example\hello\UserRepositoryTests.class
-=======
-com\example\hello\HelloApplicationTests.class
-com\example\hello\PasswordGenerator.class
-com\example\hello\UserRepositoryTests.class
->>>>>>> ee6c43bdc6a8bd20d840cd526f1451d3748a7350

@@ -8,10 +8,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.hello</groupId>
-	<artifactId>hello</artifactId>
+	<groupId>com.example.login</groupId>
+	<artifactId>SpringBootRegistrationLogin</artifactId>
 	<version>1.0</version>
-	<name>hello</name>
+	<name>SpringBootRegistrationLogin</name>
 	<description>Demo registration (sign up) and Login (Sign in)</description>
 
 	<properties>
@@ -82,18 +82,10 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-plugin-plugin</artifactId>
-				<version>3.10.2</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
-				<configuration>
-					<testFailureIgnore>true</testFailureIgnore>
-				</configuration>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
