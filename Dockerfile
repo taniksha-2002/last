@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM openjdk:17
 LABEL authors="MGSUser"
 VOLUME /tmp
-COPY target/.jar hello-1.0.jar
+COPY --from=build /app/target/hello-1.0.jar ./app.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/hello-1.0.jar"]
+CMD ["java","-jar","hello-1.0.jar"]
