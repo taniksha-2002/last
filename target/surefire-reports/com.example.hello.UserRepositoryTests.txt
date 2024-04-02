@@ -1,9 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.example.hello.UserRepositoryTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in com.example.hello.UserRepositoryTests
-com.example.hello.UserRepositoryTests  Time elapsed: 0.024 s  <<< ERROR!
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\MGSUser\Downloads\hello\hello\target\test-classes\com\example\hello\HelloApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\MGSUser\Downloads\hello\hello\target\test-classes\com\example\hello\HelloApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
-Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\MGSUser\Downloads\hello\hello\target\test-classes\com\example\hello\HelloApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
-Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.553 s <<< FAILURE! - in com.example.hello.UserRepositoryTests
+testCreateUser  Time elapsed: 0.239 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [last.UK_fwaa16aocvlcsqdvo2qlwy8l0]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.example.hello.UserRepositoryTests.testCreateUser(UserRepositoryTests.java:32)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at com.example.hello.UserRepositoryTests.testCreateUser(UserRepositoryTests.java:32)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'ravikumar@gmail.com' for key 'last.UK_fwaa16aocvlcsqdvo2qlwy8l0'
+	at com.example.hello.UserRepositoryTests.testCreateUser(UserRepositoryTests.java:32)
 
