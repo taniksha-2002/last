@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.hello.UserRepositoryTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.553 s <<< FAILURE! - in com.example.hello.UserRepositoryTests
-testCreateUser  Time elapsed: 0.239 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.469 s <<< FAILURE! - in com.example.hello.UserRepositoryTests
+testCreateUser  Time elapsed: 0.162 s  <<< ERROR!
 org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [last.UK_fwaa16aocvlcsqdvo2qlwy8l0]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
 	at com.example.hello.UserRepositoryTests.testCreateUser(UserRepositoryTests.java:32)
 Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
