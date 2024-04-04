@@ -90,7 +90,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib</classpathPrefix>
-							<mainClass>com.example.hello.AppController</mainClass>
+							<mainClass>com.example.hello.HelloApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
